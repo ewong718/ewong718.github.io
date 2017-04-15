@@ -240,15 +240,15 @@ $(document).ready(function () {
 <p>Here, it seems that there is clear a negative trend between alcohol and density. The higher the alcohol content, the lower the density. This is expected because alcohol is less dense than water so we should see the density decrease proportionally as alcohol increases.</p>
 <pre><code>## [1] -0.4961798</code></pre>
 <p>How about looking at my other primary feature of interest, volatile acidity, and its relationship with quality?</p>
-<p><img src="cnvimage120.png"  width="672" /></p>
+<p><img src="https://raw.githubusercontent.com/ewong718/ewong718.github.io/master/cnvimage120.png"  width="672" /></p>
 <p>There seems to be a stronger negative trend observed between volatile acidity and quality.</p>
 <pre><code>## [1] -0.3905578</code></pre>
 <p>The trend stops decreasing from a quality of 7 and greater. As quality increases, it seems that the variance of volatile acidity generally becomes smaller. Let’s further investigate by looking at pH and see how it relates to volatile acidity.</p>
-<p><img src="cnvimage121.png"  width="672" /></p>
+<p><img src="https://raw.githubusercontent.com/ewong718/ewong718.github.io/master/cnvimage121.png"  width="672" /></p>
 <p>I expected volatile acidity to be strongly correlated with pH. But it didn’t turn out to be significant on this plot. There seems to be only a slight positive correlation between pH and volatile acidity.</p>
 <pre><code>## [1] 0.2349373</code></pre>
 <p>Let’s move on to see how sulphates relate to wine quality.</p>
-<p><img src="cnvimage122.png"  width="672" /></p>
+<p><img src="https://raw.githubusercontent.com/ewong718/ewong718.github.io/master/cnvimage122.png"  width="672" /></p>
 <p>There is a slight positive correlation that I notice between sulphates and quality of red wine.</p>
 <pre><code>## [1] 0.2513971</code></pre>
 <p>The median of sulphates increases for each step increase in quality. The variance of sulphates peak at qualities of 6 or 7. I will not check out how sulphates relate to other variables such as chlorides.</p>
